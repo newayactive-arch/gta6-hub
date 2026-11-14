@@ -1,0 +1,4 @@
+Contact: mailto:contact@preview-chat-0fdd7422-787e-4802-9bde-7ffe779c4881.space-z.ai
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: fr, en
+Canonical: https://preview-chat-0fdd7422-787e-4802-9bde-7ffe779c4881.space-z.ai/.well-known/security.txt

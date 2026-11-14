@@ -1,0 +1,60 @@
+# ============================================
+# GTA 6 Hub — robots.txt
+# ============================================
+
+# Default policy — allow everything to all bots
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /manifest.json
+
+# Googlebot — full access for rich SEO
+User-agent: Googlebot
+Allow: /
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.css$
+Allow: /*.js$
+Crawl-delay: 0
+
+# Googlebot-Image — full image indexing
+User-agent: Googlebot-Image
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Twitterbot — for OpenGraph card previews
+User-agent: Twitterbot
+Allow: /
+
+# Facebookbot — for OpenGraph sharing
+User-agent: facebookexternalhit
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Applebot
+User-agent: Applebot
+Allow: /
+
+# Block common scraper bots (optional, saves bandwidth)
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# Sitemap location — URL preview fournie par le système
+Sitemap: https://preview-chat-0fdd7422-787e-4802-9bde-7ffe779c4881.space-z.ai/sitemap.xml

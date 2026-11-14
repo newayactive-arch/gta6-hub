@@ -1,0 +1,63 @@
+{
+  "name": "GTA 6 Hub — Countdown & News",
+  "short_name": "GTA 6 Hub",
+  "description": "Le hub francophone n°1 pour GTA 6 : countdown en temps réel jusqu'au 19 novembre 2026, timeline des news, leaks et trailers, fiches personnages et carte de Leonida.",
+  "start_url": "https://preview-chat-0fdd7422-787e-4802-9bde-7ffe779c4881.space-z.ai/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff8f0",
+  "theme_color": "#e91e63",
+  "lang": "fr-FR",
+  "dir": "ltr",
+  "categories": ["games", "entertainment", "news"],
+  "icons": [
+    {
+      "src": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0eea46efb271.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0eea46efb271.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0eea46efb271.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "GTA 6 Hub — Page d'accueil"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Countdown GTA 6",
+      "short_name": "Countdown",
+      "description": "Voir le compte à rebours en temps réel",
+      "url": "/#countdown"
+    },
+    {
+      "name": "Dernières news",
+      "short_name": "News",
+      "description": "Timeline des news, leaks et trailers GTA 6",
+      "url": "/#news"
+    },
+    {
+      "name": "Trailers officiels",
+      "short_name": "Trailers",
+      "description": "Trailer 1 et Trailer 2 de GTA 6",
+      "url": "/#trailers"
+    }
+  ]
+}
